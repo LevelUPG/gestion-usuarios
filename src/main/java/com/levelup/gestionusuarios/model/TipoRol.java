@@ -1,4 +1,4 @@
-package com.levelup.gestion_usuarios.model;
+package com.levelup.gestionusuarios.model;
 
 public enum TipoRol {
     ROLE_ADMIN("Administrador del sistema"),

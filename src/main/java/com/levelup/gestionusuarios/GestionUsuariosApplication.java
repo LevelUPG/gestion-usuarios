@@ -1,4 +1,4 @@
-package com.levelup.gestion_usuarios;
+package com.levelup.gestionusuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

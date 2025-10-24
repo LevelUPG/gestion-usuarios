@@ -1,18 +1,20 @@
-package com.levelup.gestion_usuarios.service;
+package com.levelup.gestionusuarios.service;
 
-import com.levelup.gestion_usuarios.dto.RolDTO;
-import com.levelup.gestion_usuarios.dto.UsuarioCreateDTO;
-import com.levelup.gestion_usuarios.dto.UsuarioDTO;
-import com.levelup.gestion_usuarios.dto.PermisoDTO;
-import com.levelup.gestion_usuarios.entity.RolEntity;
-import com.levelup.gestion_usuarios.entity.UsuarioEntity;
-import com.levelup.gestion_usuarios.entity.PermisoEntity;
-import com.levelup.gestion_usuarios.repository.RolRepository;
-import com.levelup.gestion_usuarios.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.mindrot.jbcrypt.BCrypt; // <--- USAR ESTA LIBRERÍA
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.levelup.gestionusuarios.dto.PermisoDTO;
+import com.levelup.gestionusuarios.dto.RolDTO;
+import com.levelup.gestionusuarios.dto.UsuarioCreateDTO;
+import com.levelup.gestionusuarios.dto.UsuarioDTO;
+import com.levelup.gestionusuarios.entity.PermisoEntity;
+import com.levelup.gestionusuarios.entity.RolEntity;
+import com.levelup.gestionusuarios.entity.UsuarioEntity;
+import com.levelup.gestionusuarios.repository.RolRepository;
+import com.levelup.gestionusuarios.repository.UsuarioRepository;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.HashSet;

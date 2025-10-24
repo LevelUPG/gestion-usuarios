@@ -1,4 +1,4 @@
-package com.levelup.gestion_usuarios.entity;
+package com.levelup.gestionusuarios.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

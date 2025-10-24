@@ -1,4 +1,4 @@
-package com.levelup.gestion_usuarios.dto;
+package com.levelup.gestionusuarios.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;

@@ -1,9 +1,11 @@
-package com.levelup.gestion_usuarios.repository;
+package com.levelup.gestionusuarios.repository;
 
-import com.levelup.gestion_usuarios.entity.RolEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+import com.levelup.gestionusuarios.entity.RolEntity;
+
 import java.util.Optional;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.levelup.gestion_usuarios.dto;
+package com.levelup.gestionusuarios.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

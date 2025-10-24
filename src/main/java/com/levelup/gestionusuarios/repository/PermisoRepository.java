@@ -1,10 +1,12 @@
-package com.levelup.gestion_usuarios.repository;
+package com.levelup.gestionusuarios.repository;
 
-import com.levelup.gestion_usuarios.entity.PermisoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
+
+import com.levelup.gestionusuarios.entity.PermisoEntity;
+
 import java.util.List;
 import java.util.Optional;
 
