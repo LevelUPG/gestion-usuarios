@@ -98,4 +98,9 @@ public class UsuarioEntity {
             this.tieneDescuentoDuoc = email.toLowerCase().contains("@duoc.cl");
         }
     }
+    // Método helper para obtener nombre completo
+    @Transient
+    public String getNombreCompleto() {
+        return nombre + " " + apellido;
+    }
 }
